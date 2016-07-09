@@ -1,0 +1,20 @@
+<header class="page-header">
+  <div class="container">
+    <a class="logo" href="http://marksheet.io">
+      MarkSheet
+    </a>
+
+    <p class="page-header-icons">
+      <a href="https://twitter.com/jgthms" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://github.com/jgthms" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+    </p>
+
+    {% unless page.layout == 'index' %}
+      {% include share.html %}
+    {% endunless %}
+  </div>
+</header>

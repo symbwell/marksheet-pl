@@ -1,0 +1,86 @@
+---
+layout: default
+route: post
+---
+
+<main class="page-container">
+  <section class="heading">
+    <div class="container">
+      <h1>
+        <em>{{ page.date | date: "%m.%-d" | remove_first: '0' }}</em>
+        {{ page.title }}
+      </h1>
+      <h2>{{ page.subtitle }}</h2>
+      {% include carbon.html %}
+    </div>
+  </section>
+
+  <div class="page-content">
+    <div class="container">
+      <header id="breadcrumb" class="breadcrumb" data-spy="affix">
+        <a id="open" class="breadcrumb-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <span class="breadcrumb-section">
+          {% case page.section %}
+          {% when "web" %}
+            <i class="fa fa-globe"></i>
+          {% when "html" %}
+            <i class="fa fa-html5"></i>
+          {% when "css" %}
+            <i class="fa fa-css3"></i>
+          {% when "sass" %}
+            <i class="fa fa-rocket"></i>
+          {% endcase %}
+          {{ page.section }}
+        </span>
+
+        {% if page.next %}
+          <a class="breadcrumb-next" href="{{ page.next.url }}">
+            <i class="fa fa-angle-right"></i>
+            <span>Next article</span>
+          </a>
+        {% endif %}
+
+        {% if page.previous %}
+          <a class="breadcrumb-previous" href="{{ page.previous.url }}">
+            <i class="fa fa-angle-left"></i>
+            <span>Previous article</span>
+          </a>
+        {% endif %}
+      </header>
+
+      <nav id="menu" class="menu">
+        <ul></ul>
+      </nav>
+
+      <article class="content">
+        {{ content }}
+      </article>
+
+      <nav class="pagination">
+        {% if page.previous %}
+          <a class="pagination-previous" href="{{ page.previous.url }}">
+            <em>&larr; Previous</em>
+            <strong>{{ page.previous.title }}</strong>
+          </a>
+        {% endif %}
+
+        {% if page.next %}
+          <a class="pagination-next" href="{{ page.next.url }}">
+            <em>Next &rarr;</em>
+            <strong>{{ page.next.title }}</strong>
+          </a>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+</main>
+
+<a id="top" class="elevator">
+  <i class="fa fa-angle-up"></i>
+  <span>Back to top</span>
+</a>

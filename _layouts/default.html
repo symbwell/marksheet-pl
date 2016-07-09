@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="route-{{ page.route }} route-{{ page.layout }}{% if page.section %} section-{{ page.section }}{% endif %}">
+  {% include head.html %}
+  <body>
+    {% include facebook.html %}
+    <div class="page-hero"></div>
+    <div class="page-body">
+      {% include header.html %}
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% if page.layout == 'post' %}
+      <div id="overlay" class="page-overlay"></div>
+      <div class="page-menu">
+        {% include table-of-contents.html %}
+      </div>
+      <div id="close" class="page-close">
+        <a class="page-close-button">
+          Close
+        </a>
+      </div>
+    {% endif %}
+    {% include scripts.html %}
+  </body>
+</html>
