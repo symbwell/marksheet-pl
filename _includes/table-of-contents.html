@@ -42,7 +42,7 @@
       <div class="toc-heading">
         <i class="fa fa-html5"></i>
         <h3>
-          <a href="/html-basics.html">HTML 5</a>
+          <a href="./html-basics.html">HTML 5</a>
         </h3>
         <small>
           <span>13</span> lessons
@@ -58,7 +58,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ post.baseurl }}">
+                <a href="{{ post.baseurl.url }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -66,7 +66,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ post.baseurl }}" {%if page.baseurl == post.url %} class="active"{% endif %}>
+                <a href="{{ post.baseurl.url }}" {%if page.baseurl.url == post.baseurl.url %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
