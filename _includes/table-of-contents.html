@@ -20,7 +20,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ site.baseurl }}{{ post.url }}">
+                <a href="{{ post.url }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -28,7 +28,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ site.baseurl }}{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
+                <a href="{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
