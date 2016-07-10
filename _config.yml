@@ -4,4 +4,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 permalink: :title.html
-baseUrl: /marksheet-pl
+url: symbwell.github.io/marksheet-pl
