@@ -9,5 +9,5 @@ Na pewno jesteś obeznany z edytorami tekstu, takimi jak **Microsoft <strong>Wor
 
 W pewnym sensie **HTML** zapewnia te same elementy do formatowania treści. Kluczową różnicą podczas formatowania tekstu w Microsoft Word jest _wizualna_ możliwość edycji, podczas gdy kod HTML jest czysto semantyczny: sam nadajesz _znaczenie_ swojej treści.
 
-Tak samo jak używasz ♫ **notesu** ♫ do napisania **piosenki, możesz użyć **HTML** do napisania **strony internetowej**.
+Tak samo jak używasz ♫ **nut** ♫ do napisania **piosenki**, możesz użyć **HTML** do napisania **strony internetowej**.
  
