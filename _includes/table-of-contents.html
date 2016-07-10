@@ -58,7 +58,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ post.url }}">
+                <a href="./{{ post.url }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
