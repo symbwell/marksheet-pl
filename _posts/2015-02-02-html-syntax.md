@@ -21,36 +21,36 @@ Spójrzmy na prosty paragraf, napisany w języku HTML:
 
 <div class="result"><p>Jeśli Tetris mnie czegoś nauczył, to tego, że problemy się piętrzą, a osiągnięcia znikają.</p></div>
 
-What you see in **angle brackets** `<`{:.language-html} and `>`{:.language-html} are HTML **tags**. They define where something _starts_ and where it _ends_.
+To, co widzisz w **nawiasach strzałkowych** `<`{:.language-html} i `<`{:.language-html} to **tagi** HTML. Definiują one _początek_ i _koniec_ elementu HTML.
 
-Each of them carry a specific **meaning**. In this case, `p`{:.language-html} stands for **paragraph**.
+Każdy z nich posiada swoją specyficzną **funkcję** w dokumencie HTML. W tym przypadku, `p`{:.language-html} oznacza **paragraf**.
 
-They usually go in pairs:
+Tagi HTML zazwyczaj występują w parach:
 
-* the _opening_ tag `<p>`{:.language-html} defines the **start** of the paragraph
-* the _closing_ tag `</p>`{:.language-html} defines its **end**
+* tag _otwierający_ `<p>`{:.language-html} mówi przeglądarce, że w tym miejscu zaczyna się **paragraf**
+* tag _zamykający_ `</p>`{:.language-html} oznacza **koniec** paragrafu
 
-The only difference between an opening and closing tag is the **slash** `/`{:.language-html} that precedes the name of the tag.
+Jedyną różnicą, pomiędzy tagiem otwierającym i zamykającym jest **slash** `/`{:.language-html} poprzedzający nazwę znacznika.
 
-When you combine an opening tag, a closing tag, and everything in between, you obtain an **HTML element**. The whole line is an HTML element that uses the HTML tags `<p>`{:.language-html} and `</p>`{:.language-html}.
+Kombinacja tagu otwierającego i zamykającego wraz z zawartością pomiędzy nimi tworzy **element HTML**. Cała powyższa linijka kodu jest elementem HTML, wykorzystującym tagi HTML `<p>`{:.language-html} i `</p>`{:.language-html}.
 
 If you [view this sample in your browser](/html/sample-paragraph.html), you'll notice that **HTML tags are not displayed** by the browser. They are only _read_ by the browser to know what _type_ of **content** you've written.
 
-### Where to write HTML
+### Gdzie pisać HTML
 
-You've probably come across simple text files, those that have a `.txt` extension.
+Prawdopodobnie natknąłeś się na proste edytory plików, które posiadają rozszerzenie `.txt`.
 
-For such a text file to become an **HTML document** (instead of a text document), you need to use an `.html` extension.
+Aby wspomniany plik tekstowy był intepretowany jako **dokument HTML** (zamiast dokumentu tekstowego), należy zmienić jego rozszerzenie z `.txt` na `.html`.
 
-Open your **text editor**, and copy paste the following:
+Otwórz swój **edytor tekstu**, a następnie skopiuj i wklej poniższy kod:
 
 {% highlight html %}
-<p>This is my firstwebpage!</p>
+<p>To moja pierwsza strona internetowa!</p>
 {% endhighlight %}
 
-Save this file as `my-first-webpage.html` and just open it with your browser, and you'll see:
+Zapisz plik jako `moja-pierwsza-strona.html` a następnie otwórz go w swojej przeglądarce. Możesz to zrobić dwukrotnie klikając powstały plik lub przeciągając plik do pustej karty przeglądarki. Rezultat jaki zobaczysz to:
 
-<div class="result"><p>This is my firstwebpage!</p></div>
+<div class="result"><p>To moja pierwsza strona internetowa!</p></div>
 
 Remember:
 
