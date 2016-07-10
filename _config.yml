@@ -1,6 +1,5 @@
 name: MarkSheet
 description: Darmowy kurs HTML i CSS
-baseurl: /marksheet-pl
 markdown: kramdown
 kramdown:
   input: GFM
