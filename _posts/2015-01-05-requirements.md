@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Requirements"
-subtitle: "Before reading this tutorial"
+title: "Wymagania"
+subtitle: "Zanim zaczniesz czytać ten kurs"
 section: web
 published: false
 ---

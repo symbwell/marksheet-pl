@@ -1,12 +1,13 @@
 ---
 layout: chapter
-title: "HTML <strong>Basics</strong>"
-subtitle: "HTML is like <strong>Word</strong> but for the <strong>Web</strong>"
+title: "<strong>Podstawy</strong> HTML"
+subtitle: "HTML jest jak dokument <strong>Word</strong> tylko, że dla <strong>sieci</strong>"
 section: html
 ---
 
-You're certainly already acquainted with document editors, like **Microsoft <strong>Word</strong>**, with which you can **structure** your document with titles, paragraph, lists, tables, images, **bold** and _italic_ text.
+Na pewno jesteś obeznany z edytorami tekstu, takimi jak **Microsoft <strong>Word</strong>**, w których możesz **organizować** swój dokument przy użyciu tytułów, paragrafów, list, tabeli, zdjęć, a takżę **pogrubiać** lub _pochylać_ tekst.
 
-**HTML** provides roughly the same elements of formatting. The key difference is that formatting text in Microsoft Word is _visual_, whereas HTML code is purely **semantic**: you provide _meaning_ to your text.
+W pewnym sensie **HTML** zapewnia te same elementy do formatowania treści. Kluczową różnicą podczas formatowania tekstu w Microsoft Word jest _wizualna_ możliwość edycji, podczas gdy kod HTML jest czysto semantyczny: sam nadajesz _znaczenie_ swojej treści.
 
-The same way you use ♫ **notes** ♬ to write **music**, you use **HTML** to write **webpages**.
+Tak samo jak używasz ♫ **notesu** ♫ do napisania **piosenki, możesz użyć **HTML** do napisania **strony internetowej**.
+ 
