@@ -4,7 +4,7 @@
       <div class="toc-heading">
         <i class="fa fa-globe"></i>
         <h3>
-          <a href="/introduction.html">Web</a>
+          <a href="./introduction.html">Web</a>
         </h3>
         <small>
           <span>3</span> lessons
@@ -20,7 +20,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ post.url }}">
+                <a href="{{ post.baseurl }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -28,7 +28,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
+                <a href="{{ post.baseurl }}" {%if page.baseurl == post.baseurl %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
@@ -58,7 +58,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="./{{ post.url }}">
+                <a href="{{ post.baseurl }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -66,7 +66,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
+                <a href="{{ post.baseurl }}" {%if page.baseurl == post.url %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
@@ -96,7 +96,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ post.url }}">
+                <a href="{{ post.baseurl }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -104,7 +104,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
+                <a href="{{ post.baseurl }}" {%if page.baseurl == post.baseurl %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
@@ -134,7 +134,7 @@
             {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
             {% if currentmonth != month %}
               <li class="toc-month">
-                <a href="{{ post.url }}">
+                <a href="{{ post.baseurl }}">
                   <em>{{currentmonth}}</em>
                   {{ post.title | strip_html }}
                 </a>
@@ -142,7 +142,7 @@
               {% capture month %}{{currentmonth}}{% endcapture %}
             {% else %}
               <li>
-                <a href="{{ post.url }}" {%if page.url == post.url %} class="active"{% endif %}>
+                <a href="{{ post.baseurl }}" {%if page.baseurl == post.baseurl %} class="active"{% endif %}>
                   {{ post.title }}
                 </a>
               </li>
