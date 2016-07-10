@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "HTML <strong>Syntax</strong>"
-subtitle: "As any language, HTML has <strong>rules</strong>"
+title: "<strong>Składnia</strong> HTML"
+subtitle: "Jak każdy język, również HTML ma swoje <strong>zasady</strong>"
 section: html
 ---
 
-**HTML** stands for **H**yper**T**ext **M**arkup **L**anguage:
+HTML to nic innego jak **H**yper**T**ext **M**arkup **L**anguage:
 
-* **HyperText** means that it uses the HTTP part of the Internet
-* **Markup** means the code you write is annotated with keywords
-* **Language** means it can be read by both a human and a computer
+* **HyperText** oznacza użycie protokołu HTTP
+* **Markup** oznacza, że kod, który napisałeś został zawarty w słowach kluczowych (czyli tagach)
+* **Language** oznacza, że Twój kod może zostać poprawnie zinterpretowany zarówno przez człowieka jak i komputer
 
 Like any language, HTML comes with a set of **rules**. These rules are relatively simple. It comes down to defining **boundaries**, to know where something _starts_ and where something _ends_.
 
