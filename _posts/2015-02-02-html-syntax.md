@@ -11,15 +11,15 @@ HTML to nic innego jak **H**yper**T**ext **M**arkup **L**anguage:
 * **Markup** oznacza, że kod, który napisałeś został zawarty w słowach kluczowych (czyli tagach)
 * **Language** oznacza, że Twój kod może zostać poprawnie zinterpretowany zarówno przez człowieka jak i komputer
 
-Like any language, HTML comes with a set of **rules**. These rules are relatively simple. It comes down to defining **boundaries**, to know where something _starts_ and where something _ends_.
+Tak jak każdy język, HTML posiada zestaw **reguł**. Zasady te są relatywnie proste. Wyznaczają dolne **granice**, które mówią, gdzie coś się _zaczyna_, a gdzie _kończy_.
 
-Here is a sample paragraph in HTML:
+Spójrzmy na prosty paragraf, napisany w języku HTML:
 
 {% highlight html %}
-<p>If Tetris has taught me anything it's that errors pile up and accomplishments disappear.</p>
+<p>Jeśli Tetris mnie czegoś nauczył, to tego, że problemy się piętrzą, a osiągnięcia znikają.</p>
 {% endhighlight %}
 
-<div class="result"><p>If Tetris has taught me anything it's that errors pile up and accomplishments disappear.</p></div>
+<div class="result"><p>Jeśli Tetris mnie czegoś nauczył, to tego, że problemy się piętrzą, a osiągnięcia znikają.</p></div>
 
 What you see in **angle brackets** `<`{:.language-html} and `>`{:.language-html} are HTML **tags**. They define where something _starts_ and where it _ends_.
 
