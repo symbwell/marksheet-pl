@@ -1,10 +1,10 @@
 ---
 layout: chapter
-title: "Introduction"
-subtitle: "An overview of how the <strong>Web</strong> works"
+title: "Wprowadzenie"
+subtitle: "Omówienie zasad działania <strong>internetu</strong>"
 section: web
 ---
 
-Before diving into the technical and practical aspect of coding, you need to have a **basic** understanding of how the underlying _environment_ works.
+Przed zanurzeniem się w techniczne i praktyczne aspekty kodowania, musisz poznać i zrozumieć **podstawy** funkcjonowania _środowiska_, w którym przyjdzie Ci pracować. 
 
-This introduction is meant to provide a quick overview of both the **Internet** and the **Web**.
+Wprowadzenie ma na celu szybkie objaśnienie czym jest **Internet** i **Sieć**.
