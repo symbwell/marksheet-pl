@@ -34,6 +34,7 @@ Jedyną różnicą, pomiędzy tagiem otwierającym i zamykającym jest **slash**
 
 Kombinacja tagu otwierającego i zamykającego wraz z zawartością pomiędzy nimi tworzy **element HTML**. Cała powyższa linijka kodu jest elementem HTML, wykorzystującym tagi HTML `<p>`{:.language-html} i `</p>`{:.language-html}.
 
+
 If you [view this sample in your browser](/html/sample-paragraph.html), you'll notice that **HTML tags are not displayed** by the browser. They are only _read_ by the browser to know what _type_ of **content** you've written.
 
 ### Gdzie pisać HTML
