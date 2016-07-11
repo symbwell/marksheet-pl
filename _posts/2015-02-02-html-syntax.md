@@ -21,7 +21,7 @@ Spójrzmy na prosty paragraf, napisany w języku HTML:
 
 <div class="result"><p>Jeśli Tetris mnie czegoś nauczył, to tego, że problemy się piętrzą, a osiągnięcia znikają.</p></div>
 
-To, co widzisz w **nawiasach strzałkowych** `<`{:.language-html} i `<`{:.language-html} to **tagi** HTML. Definiują one _początek_ i _koniec_ elementu HTML.
+To, co widzisz w **nawiasach strzałkowych** `<`{:.language-html} i `>`{:.language-html} to **tagi** HTML. Definiują one _początek_ i _koniec_ elementu HTML.
 
 Każdy z nich posiada swoją specyficzną **funkcję** w dokumencie HTML. W tym przypadku, `p`{:.language-html} oznacza **paragraf**.
 
@@ -34,8 +34,7 @@ Jedyną różnicą, pomiędzy tagiem otwierającym i zamykającym jest **slash**
 
 Kombinacja tagu otwierającego i zamykającego wraz z zawartością pomiędzy nimi tworzy **element HTML**. Cała powyższa linijka kodu jest elementem HTML, wykorzystującym tagi HTML `<p>`{:.language-html} i `</p>`{:.language-html}.
 
-
-If you [view this sample in your browser](/html/sample-paragraph.html), you'll notice that **HTML tags are not displayed** by the browser. They are only _read_ by the browser to know what _type_ of **content** you've written.
+Spójrz na ten [prosty przykład](/html/sample-paragraph.html), aby przekonać się, że **tagi HTML nie są wyświetlane** przez przegladarkę. Twoja przeglądarka internetowa _czyta_ je. Dzięki temu wie, jakiego rodzaju treść chcesz wyświetlić. 
 
 ### Gdzie pisać HTML
 
@@ -53,24 +52,24 @@ Zapisz plik jako `moja-pierwsza-strona.html` a następnie otwórz go w swojej pr
 
 <div class="result"><p>To moja pierwsza strona internetowa!</p></div>
 
-Remember:
+Zapamiętaj:
 
-* use a text editor like Notepad++ to **create** HTML documents
-* use a browser like Firefox to **open** HTML documents
+* używaj edytorów tekstu takich jak Notepad++ do **tworzenia** dokumentów HTML
+* używaj przeglądarek internetowych, takich jak Google Chrome czy Mozilla Firefox do **przeglądania** dokumentów HTML
 
-### Attributes
+### Atrybuty
 
-Attributes act like **extra** information tied to an HTML element. They are written _within_ an HTML _tag_. As such, they are not displayed by the browser either.
+Atrybuty działają jak **ekstra** informacje zawarte w elementach HTML. Zawarte są _wewnątrz_ tagu HTML. Podobnie jak tagi, atrybuty nie sa wyświetlane przez przeglądarkę, a jedynie interpretowane. 
 
-For example, the `href` attribute is used to define the target of a **link** (which uses an **a**nchor tag): 
+Dla przykładu, atrybut `href` jest używany do definiowania elementu docelowego **linku** (atrybut ten używany jest z **a**nchorem):
 
 {% highlight html %}
-<a href="http://www.mozilla.com/firefox">Download Firefox</a>
+<a href="http://www.mozilla.com/firefox">Pobierz Mozille!</a>
 {% endhighlight %}
 
-<div class="result"><a href="http://www.mozilla.com/firefox">Download Firefox</a></div>
+<div class="result"><a href="http://www.mozilla.com/firefox">Pobierz Mozille</a></div>
 
-There are [16 HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes) that can be used on _any_ HTML element. All of them are **optional**.
+Istnieje [16 atrybutów HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes), które można zastosować z _każdym_ elementem HTML. Każdy z tych atrybutów jest **opcjonalny**.
 
 You'll mostly use `class` (which is used for CSS), and `title` (which is the tooltip that appears when hovering an item like this one).
 
